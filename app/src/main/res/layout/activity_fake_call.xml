@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1a1a2e"
+    android:padding="32dp">
+
+    <TextView
+        android:text="Incoming Call..."
+        android:textSize="16sp"
+        android:textColor="#aaaaaa"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:text="Mom"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="+91 98765 43210"
+        android:textSize="16sp"
+        android:textColor="#aaaaaa"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:text="Ringing..."
+        android:textSize="14sp"
+        android:textColor="#aaaaaa"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnDecline"
+            android:text="Decline"
+            android:backgroundTint="#e63946"
+            android:textColor="#ffffff"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="32dp"/>
+
+        <Button
+            android:id="@+id/btnAnswer"
+            android:text="Answer"
+            android:backgroundTint="#2d6a4f"
+            android:textColor="#ffffff"
+            android:layout_width="120dp"
+            android:layout_height="60dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

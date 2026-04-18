@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:text="Women Safety"
+        android:textSize="28sp"
+        android:textColor="#e63946"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="Companion App"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:hint="+91XXXXXXXXXX"
+        android:textColorHint="#aaaaaa"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:hint="Enter OTP"
+        android:textColorHint="#aaaaaa"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:inputType="number"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSendOtp"
+        android:text="Send OTP"
+        android:backgroundTint="#e63946"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnVerifyOtp"
+        android:text="Verify OTP"
+        android:backgroundTint="#457b9d"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

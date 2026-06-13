@@ -15,7 +15,7 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"/>
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:text="Shake your phone or press SOS to alert contacts"
@@ -24,7 +24,7 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="36dp"/>
 
     <Button
         android:id="@+id/btnSOS"
@@ -35,14 +35,14 @@
         android:backgroundTint="#e63946"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginBottom="40dp"/>
+        android:layout_marginBottom="36dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:layout_marginBottom="16dp">
+        android:layout_marginBottom="12dp">
 
         <Button
             android:id="@+id/btnContacts"
@@ -64,14 +64,35 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"/>
 
+
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnFakeCall"
-        android:text="Fake Call"
-        android:backgroundTint="#2d6a4f"
-        android:textColor="#ffffff"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnFakeCall"
+            android:text="Fake Call"
+            android:backgroundTint="#2d6a4f"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:text="⚙ Settings"
+            android:backgroundTint="#5d4e75"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
 
 </LinearLayout>

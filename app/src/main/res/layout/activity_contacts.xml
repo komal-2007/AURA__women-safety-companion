@@ -57,6 +57,8 @@
         android:id="@+id/lvContacts"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:dividerHeight="1dp"/>
+        android:background="@color/purple_200"
+        android:cacheColorHint="@color/white"
+        android:dividerHeight="1dp" />
 
 </LinearLayout>

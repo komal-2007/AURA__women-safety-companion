@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "738364470521",
+    "firebase_url": "https://women-safety--123-default-rtdb.firebaseio.com",
     "project_id": "women-safety--123",
     "storage_bucket": "women-safety--123.firebasestorage.app"
   },
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": //add your key here
+          "current_key": "AIzaSyBCIxUCux_hYUAn83hUuNVgxrVf9RIRZNE"
         }
       ],
       "services": {
